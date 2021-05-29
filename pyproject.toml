@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "entity-id"
+version = "0.1.0"
+description = ""
+authors = ["Ye Yan <ye.yan@me.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+spacy = "^3.0.6"
+Flask = "^2.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^21.5b1"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
